@@ -1,0 +1,79 @@
+@font-face {
+    font-family: LittleDays;
+    src: url(./E03_Receta_fondant/fonts/LittleDays.ttf);
+}
+@font-face {
+    font-family: PrintClearly;
+    src: url(./E03_Receta_fondant/fonts/PrintClearly.ttf);
+}
+@font-face {
+    font-family: BoldPrintClearly;
+    src: url(./E03_Receta_fondant/fonts/PrintClearly_bold.ttf);
+}
+body{
+    background-image: url(./E03_Receta_fondant/img/cupcake.gif);
+    font-family: PrintClearly;
+    font-size: large;
+}
+div.contenidor{
+    background-color: blanchedalmond;
+    max-width: 45em;
+    border: 10px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-left-color: palevioletred;
+    border-right-color: rgb(167, 224, 81);
+    border-right-width: 1em solid;
+    border-left-width: 3em solid;
+    padding: 1em;
+    border-top: none;
+    border-bottom: none;
+}
+h2{
+    font-family: BoldPrintClearly;
+    font-size:xx-large;
+}
+h1{
+    font-family: BoldPrintClearly;
+    font-size: 5em;
+    margin: auto;
+}
+.postit2{
+    background-color:rgb(167, 224, 81);
+}
+ol.clase2{
+    list-style-type: lower-alpha;
+}  
+span.coment{
+    color: red;
+}
+.titulo2{
+    font-weight: bolder;
+}
+li.postit{
+    list-style-image: url(./E03_Receta_fondant/img/ok.png);
+    font-family: LittleDays;
+    margin-left: 1em;
+}
+ul{
+    padding: 20px;
+}
+.postit{
+    background-color: lightpink;
+    font-size: larger;
+}
+
+.coment{
+    color: red;
+    font: bold;
+}
+img{
+    border: 0.4em solid;
+    border-color: lightskyblue;
+}
+section{
+    padding: 0.2em;
+    margin: auto;
+
+}
